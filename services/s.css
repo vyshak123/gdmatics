@@ -1,0 +1,257 @@
+.topnav-default {
+    background-color: transparent;
+    border-color: transparent;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    
+    }
+    
+    .topnav-nav { 
+    margin-top: 40px;
+    float: right;
+    }
+    
+    @media screen and (max-width: 767px) {
+    .topnav {
+    float: none;
+    text-align: center;
+    background: rgba(25, 33, 60, 0.5);
+    }
+    }
+    
+    .topnav-default .topnav-brand {
+    margin-top: 40px;
+    font-size: 28px;
+    font-family: 'Righteous', cursive;
+    color: rgb(228, 34, 34);
+    letter-spacing: 1px;
+    -moz-transition:color .5s ease-in;
+     -o-transition:color .5s ease-in;
+    -webkit-transition:color .5s ease-in;
+    }
+    
+    @media screen and (max-width: 400px) {
+    .topnav-default .topnav-brand {
+    font-size: 22px;
+    }
+    }
+    
+    .topnav-default .topnav-brand:hover, .topnav-default .topnav-brand span:hover {
+    color: #3D99B8;
+    }
+    
+    .topnav-default .topnav-nav>li>a {
+    color: rgb(228, 34, 34);
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    }
+    
+    .topnav-default .topnav-nav>li>a:hover {
+    color: #42a5f6;
+    }
+    
+    .topnav-default .topnav-nav>li>a:focus {
+    color: #42a5f6;
+    }
+    
+    .topnav-default .topnav-toggle {
+    margin-top: 40px;
+    border: none;
+    }
+    
+    .topnav-default .topnav-toggle:focus, .topnavr-default .topnav-toggle:hover {
+    background: none;
+    }
+    
+    .topnav-default .topnav-toggle .icon-bar {
+    height: 4px;
+    width: 28px;
+    background: #42a5f6;
+    }
+    
+    .topnav-default.shrink {
+    background:rgba(25, 33, 60, 0.8)
+    }
+    
+    .topnav-default.shrink .topnav-nav {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    }
+    
+    .topnav-default.shrink .topnav-brand {
+    margin-top: 20px;
+    }
+    
+    .topnav-default.shrink .topnav-toggle {
+    margin-top: 25px;
+    }
+    #social{
+      font-weight: lighter;
+      font-size: 40px;
+      color: #000;
+      text-align: center;
+      padding-top: 0px;
+      margin-bottom: 0;
+      align-items: center;
+      }
+      
+      .llist{
+      list-style: none;
+      margin: 10px 30px;
+      display: inline-block;
+      font-size: 10px;
+      padding: 2px 2px;
+      color: #55ACEE;
+      border: 1px solid #130404bd;
+      border-radius: 50%;
+      transition: .5s;
+      align-items: center;
+      }
+      
+      .media{
+      align-items: center;
+      }
+      .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 2px 2px;
+      border-radius: 50%;
+      }
+      
+      .fa:hover {
+      opacity: 0.7;
+      }
+      .topnav{
+          width:100%;
+          position:absolute;
+          top:0;
+          
+          margin-bottom: 20%;
+          padding:auto;
+          display:flex;
+          align-items: center;
+          justify-content: space-between;
+        
+        }
+        .topnav ul li{
+          list-style: none;
+          display: inline-block;
+        
+        }
+        /* Add a black background color to the top navigation */
+        .topnav {
+         
+          overflow: hidden;
+        }
+        
+        /* Style the links inside the navigation bar */
+        .topnav a {
+          float: left;
+          color:rgb(228, 34, 34);
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 20px;
+          font-weight: 100;
+        }
+        
+        /* Change the color of links on hover */
+        .topnav a:hover {
+          background-color: #04AA6D;
+          color: black;
+        }
+        
+        /* Add a color to the active/current link */
+        .topnav a.active {
+          background-color: #04AA6D;
+          color: rgb(228, 34, 34);
+        }
+        
+        
+        .content{
+          text-align:center ;
+        }
+        
+        .content h1{
+          margin: 10%;
+          
+        font-size: 2.625rem;
+        color:rgb(228, 34, 34);
+        font-weight: 600px;
+        }
+        
+p{
+    color:#000000;
+    font-size: 1.56rem;
+
+}        
+
+h2{
+    color:#000000;
+    font-size: 2.56rem;
+}
+
+.form{
+    font-size: 2.56rem;
+    color:#000000;
+}
+
+.block {
+    display: block;
+    width: 50%;
+    border: none;
+    background-color: #96f3ec54;
+    color: rgb(29, 20, 20);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    radius:round;
+  }
+  
+  .block:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+
+
+  body {margin:0;}
+
+  .topnav {
+    overflow: hidden;
+    background-color:transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left:400px;
+    margin-left:300px;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }
